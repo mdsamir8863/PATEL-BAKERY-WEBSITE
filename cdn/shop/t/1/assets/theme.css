@@ -1939,7 +1939,7 @@ html {
 
 @media (min-width:87.5em) {
     html {
-        font-size: 10px
+        font-size: 18px
     }
 }
 
@@ -3610,6 +3610,7 @@ img[data-sizes=auto] {
         font-size: 2.8rem;
         line-height: 3.2rem
     }
+   
 }
 
 .c-card-edito--blog .c-card-edito__link {
@@ -6405,8 +6406,8 @@ cart-items.is-empty .l-minicart__footer {
 }
 
 .l-header.is-open .l-header__toggle-nav>span:first-of-type {
-    -webkit-transform: translateY(-105%) translateZ(0);
-    transform: translateY(-105%) translateZ(0)
+    -webkit-transform: translateY(-155%) translateZ(0);
+    transform: translateY(-155%) translateZ(0)
 }
 
 .l-header.is-open .l-header__toggle-nav>span:last-of-type {
@@ -10418,6 +10419,19 @@ variant-selects .page-product__variants--sliced label:before {
         padding-top: 0;
         width: 50%
     }
+
+    html {
+        height: 100%;
+        font-size: 25px !important
+    }
+    .patel-logo {
+        width: 18rem !important;
+        margin-left: -52px;
+    }
+    .mb-font{
+        font-size: 1.3rem !important;
+    }
+
 }
 
 @media (min-width:62em) {
@@ -10448,9 +10462,3 @@ variant-selects .page-product__variants--sliced label:before {
 }
 
 
-@media screen and (max-width:768px) {
-    .patel-logo {
-        width: 13rem !important;
-    }
-
-}
