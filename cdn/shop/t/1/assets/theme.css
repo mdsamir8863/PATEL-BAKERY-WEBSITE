@@ -3610,7 +3610,7 @@ img[data-sizes=auto] {
         font-size: 2.8rem;
         line-height: 3.2rem
     }
-   
+
 }
 
 .c-card-edito--blog .c-card-edito__link {
@@ -10424,12 +10424,27 @@ variant-selects .page-product__variants--sliced label:before {
         height: 100%;
         font-size: 25px !important
     }
+
     .patel-logo {
         width: 18rem !important;
         margin-left: -52px;
     }
-    .mb-font{
+
+    .mb-font {
         font-size: 1.3rem !important;
+    }
+
+    .contact_info_sec {
+        display: none !important;
+    }
+
+    .contact_field {
+        padding: 1rem !important;
+        font-size: 35px !important;
+    }
+
+    .contact_field p {
+        font-size: 22px !important;
     }
 
 }
@@ -10460,5 +10475,3 @@ variant-selects .page-product__variants--sliced label:before {
 .main-blog .c-pagination .c-nav-slider__arrow {
     margin-top: 0 !important
 }
-
-
