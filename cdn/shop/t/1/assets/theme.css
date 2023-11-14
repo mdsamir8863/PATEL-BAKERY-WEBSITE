@@ -10443,8 +10443,21 @@ variant-selects .page-product__variants--sliced label:before {
         font-size: 35px !important;
     }
 
-    .contact_field p {
-        font-size: 22px !important;
+    /* .contact_field p {
+        font-size: 28px !important;
+    } */
+   
+    .u-marg-t-xs{
+        margin-top: 1.2rem !important;
+    }
+    .l-nav__second{
+        margin-left: 2rem !important;
+    }
+    .mbText{
+        font-size: 1.2rem !important;
+    }
+    .mbHide{
+        display: block !important;
     }
 
 }

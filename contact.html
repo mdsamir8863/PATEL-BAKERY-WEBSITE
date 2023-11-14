@@ -13,12 +13,14 @@
           rel="stylesheet"
         /> -->
 
-        <title>
+    <title>
+      Patel® Bakery
+    </title>
 
-          Patel® Bakery</title>
-
-    <meta name="description"
-        content="Find all our Bakery needs in our patels bakery. Order online and have your delivered directly to your home.">
+    <meta
+      name="description"
+      content="Find all our Bakery needs in our patels bakery. Order online and have your delivered directly to your home."
+    />
 
     <!-- <meta property="og:site_name" content="Poilâne"> -->
     <!-- <meta property="og:url" content="https://www.poilane.com/en"> -->
@@ -46,6 +48,9 @@
         --payment-terms-background-color: #ffffff;
         --page-width-margin: 0rem;
         --color-nav-fix: #ffffff;
+      }
+      .mbHide {
+        display: none !important;
       }
     </style>
 
@@ -187,8 +192,22 @@
         border-radius: 30px;
         overflow: hidden;
       }
-      @media screen and (max-width: 880px) {
-       
+      .whatsApp {
+        position: fixed;
+        right: 2rem;
+        bottom: 2rem;
+        z-index: 999;
+      }
+      .whatsApp img {
+        width: 6rem;
+        height: 6rem;
+        color: green !important;
+        cursor: pointer;
+      }
+      @media screen and (max-width: 840px) {
+        .mbText {
+          font-size: 1.2rem Im !important;
+        }
       }
     </style>
   </head>
@@ -325,13 +344,18 @@
             class="l-header__inner container"
             style="align-items: center; color: white;"
           >
-          <span class="l-header__logo u-relative u-reset-font-size" >
-            <img class="patel-logo" src="./assets/patel-logo-main.png" alt="logo" style=" top: 0; left: 0; width: 22rem;">
+            <span class="l-header__logo u-relative u-reset-font-size">
+              <img
+                class="patel-logo"
+                src="./assets/patel-logo-main.png"
+                alt="logo"
+                style="top: 0; left: 0; width: 22rem;"
+              />
 
-            <a href="/" class="u-wrapper-panel">
+              <a href="/" class="u-wrapper-panel">
                 <span class="u-sr-only">Home</span>
-            </a>
-        </span>
+              </a>
+            </span>
             <nav class="l-nav | js-header-nav">
               <div
                 class="l-header__search container u-bg-white | js-header-search"
@@ -1374,74 +1398,89 @@
     >
       <script src="./cdn/shop/t/1/assets/cart.js" defer="defer"></script>
     </section>
+    <div class="whatsApp">
+      <a href="https://wa.me/+919844637555" target="_blank">
+        <img src="./assets/WhatsApp_icon.png" alt="" />
+      </a>
+      <!-- <a href="tel:+918009054294">
+        <img src="./assets/WhatsApp_icon.png" alt="" />
+      </a> -->
+    </div>
     <main
       id="MainContent"
       class="content-for-layout focus-none"
       role="main"
       tabindex="-1"
     >
-      <section class=" contact_us">
-        <div class=" container">
-          <div class=" row">
-            <div class=" col-md-10 offset-md-1">
-              <div class=" contact_inner">
-                <div class=" row">
-                  <div class=" col-md-10">
-                    <div class=" contact_form_inner">
-                      <div class=" contact_field">
-                        <h3>Contatc Us</h3>
-                        <p>
+      <section class="contact_us">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="contact_inner">
+                <div class="row">
+                  <div class="col-md-10">
+                    <div class="contact_form_inner">
+                      <div class="contact_field">
+                        <h3>Contact Us</h3>
+                        <p class="mbText">
                           Feel Free to contact us any time. We will get back to
                           you as soon as we can!.
                         </p>
                         <input
                           type="text"
-                          class=" form-control form-group"
+                          class="form-control form-group mbText"
                           placeholder="Name"
                         />
                         <input
                           type="text"
-                          class=" form-control form-group"
+                          class="form-control form-group mbText"
                           placeholder="Email"
                         />
                         <textarea
-                          class=" form-control form-group"
+                          class="form-control form-group mbText"
                           placeholder="Message"
                         ></textarea>
-                        <button class=" contact_form_submit">Send</button>
+                        <button class="contact_form_submit mbText">Send</button>
                       </div>
                     </div>
                   </div>
-                  <div class=" col-md-2">
+                  <div class="col-md-2 mbText">
                     <div
-                      class=" right_conatct_social_icon d-flex align-items-end"
+                      class="right_conatct_social_icon d-flex align-items-end"
                     >
-                      <div class=" socil_item_inner d-flex">
+                      <div class="socil_item_inner d-flex mbText">
                         <li>
-                          <a href="#"><i class=" fab fa-facebook-square"></i></a>
+                          <a href="#"><i class="fab fa-facebook-square"></i></a>
                         </li>
                         <li>
-                          <a href="#"><i class=" fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                          <a href="#"><i class=" fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
                         </li>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class=" contact_info_sec">
+                <div class="contact_info_sec">
                   <h4>Contact Info</h4>
-                  <div class=" d-flex info_single align-items-center">
-                    <i class=" fas fa-headset"></i>
-                    <span> +91 8009 054294</span>
+                  <div class="d-flex info_single align-items-center">
+                    <i class="fas fa-headset"></i>
+                    <a class="hover:underline" href="tel:+919844637555"
+                      >+919844637555
+                    </a>
                   </div>
-                  <div class=" d-flex info_single align-items-center">
-                    <i class=" fas fa-envelope-open-text"></i>
-                    <span>info@flightmantra.com</span>
+                  <div class="d-flex info_single align-items-center">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <a
+                      class="hover:underline"
+                      href="mailto:patel@gmail.com"
+                      target="_blank"
+                      >patel@gmail.com</a
+                    >
                   </div>
-                  <div class=" d-flex info_single align-items-center">
-                    <i class=" fas fa-map-marked-alt"></i>
+                  <div class="d-flex info_single align-items-center">
+                    <i class="fas fa-map-marked-alt"></i>
                     <span
                       >1000+ Travel partners and 65+ Service city across India,
                       USA, Canada & UAE</span
@@ -1456,11 +1495,32 @@
 
       <section class="map_sec">
         <div class="container">
+          <div class="row mbHide">
+            <div class="col-md-10 offset-md-1">
+              <div class="map_inner pb-16">
+                <h4 class="md:text-3xl">Contact info</h4>
+                <p class="mbText">
+                  <a class="hover:underline mbText" href="tel:+919844637555"
+                    >+919844637555
+                  </a>
+                </p>
+
+                <p class="mbText">
+                  <a
+                    class="hover:underline"
+                    href="mailto:patel@gmail.com"
+                    target="_blank"
+                    >patel@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
           <div class="row">
             <div class="col-md-10 offset-md-1">
               <div class="map_inner">
-                <h4>Find Us on Google Map</h4>
-                <p>
+                <h4 class="md:text-3xl">Find Us on Google Map</h4>
+                <p class="mbText">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Tempore quo beatae quasi assumenda, expedita aliquam minima
                   tenetur maiores neque incidunt repellat aut voluptas hic
